@@ -1,0 +1,202 @@
+/* ============================================
+common css
+=============================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* ============================================
+css for header area
+=============================================== */
+.header_area{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.inner_header{
+    display: flex;
+}
+.header_text{
+    width: 50%;
+    margin-right: 25px;
+}
+.header_text h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 100px;
+    margin-top: 30px;
+}
+.header_text h1 .text_highlight{
+    color: #FFA500;
+}
+.header_text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.header_text p{
+    color: #7C6969;
+}
+.header_text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    background-color: #3a3;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 15px;
+    color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(141, 48, 48), #FF6D4F);
+}
+.header_img{
+    width: 50%;
+    margin-left: 25px;
+}
+
+/* ============================================
+css for dream area
+=============================================== */
+.dream_area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 100px;
+}
+.inner_dream{
+    display: flex;
+}
+.dream_img{
+    width: 50%;
+    margin-right: 25px;
+}
+.dream_text{
+    width: 50%;
+    margin-left: 25px;
+}
+.dream_text h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.dream_text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.dream_text p{
+    color: #7C6969;
+}
+.dream_text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    background-color: #3a3;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 15px;
+    color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(141, 48, 48), #FF6D4F);
+}
+
+/* ============================================
+css for experience area
+=============================================== */
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 80%;
+    background-size: 100px;
+    margin-top: 50px;
+}
+.experience_area h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px;
+}
+.inner_experience{
+    display: flex;
+    margin-top: 20px;
+}
+.fullstack_developer{
+    margin-right: 25px;
+    padding: 50px 10px 90px;
+    box-shadow: 0px 0px 30px rgb(190, 155, 155);
+    width: 50%;
+    border-radius: 5px;
+    border-left: 7px solid transparent;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+.fullstack_developer h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.fullstack_developer h4{
+    font-size: 20px;
+    color: #FFC822;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.fullstack_developer p{
+    color: #7C6969;
+}
+.baby_developer{
+    margin-left: 25px;
+    padding: 50px 10px 90px;
+    box-shadow: 0px 0px 30px rgb(190, 155, 155);
+    width: 50%;
+    border-radius: 5px;
+    border-left: 7px solid red;
+    border-image: linear-gradient(rgb(0, 255, 42), yellow);
+    border-image-slice: 1;
+}
+.baby_developer h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.baby_developer h4{
+    font-size: 20px;
+    color: #FFC822;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.baby_developer p{
+    color: #7C6969;
+}
+/* ============================================
+css for footer area
+=============================================== */
+.footer_area{
+    margin: 200px 0 50px;
+}
+.inner_footer p{
+    text-align: center;
+    color: #7C6969;
+}
